@@ -7,6 +7,14 @@ codeunit 50102 MKIntegration
         getToken();
     end;
 
+    procedure testXX(): Text
+    var
+        result: text;
+    begin
+        result := '223';
+        exit(result);
+    end;
+
     procedure SHA256(var _appCode: Text; var _appSecret: Text; var _timestamp: Text): Text
     var
         CrypMangement: Codeunit "Cryptography Management";
