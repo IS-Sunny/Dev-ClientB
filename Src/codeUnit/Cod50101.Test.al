@@ -14,6 +14,11 @@ codeunit 50101 "Test"
         custReport: Report "Customer - List";
         custCategory: Record "Customer Category";
 
+    local procedure testData()
+    begin
+        custCategory.Init();
+
+    end;
 
     local procedure createData()
     begin
