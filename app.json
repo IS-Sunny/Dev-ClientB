@@ -1,0 +1,35 @@
+{
+  "id": "0877f557-1790-4586-be48-16fdc2166fe4",
+  "name": "Integration with PowerApps",
+  "publisher": "DSA IS team",
+  "target": "Cloud",
+  "version": "1.0.0.1",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+      "name": "Base Application",
+      "version": "18.3.27240.29362",
+      "publisher": "Microsoft"
+    }
+  ],
+  "screenshots": [],
+  "platform": "18.0.27224.27282",
+  "application": "18.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://Integration.com/help/",
+  "showMyCode": true,
+   "runtime": "7.2"
+  
+}
