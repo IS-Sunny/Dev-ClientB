@@ -38,6 +38,24 @@ pageextension 50102 "BusinessManagerRoleCenter.DSA" extends "Business Manager Ro
                 RunObject = codeunit "ModulaIntegration";
             }
 
+            action(WXIntegration)
+            {
+                ApplicationArea = Basic, Suite;
+                Caption = 'WeChat Integration';
+                Image = Action;
+                Promoted = true;
+                PromotedCategory = Process;
+                RunObject = codeunit "DSA_CWXApi";
+            }
+            action(CustomerCategory)
+            {
+                ApplicationArea = Basic, Suite;
+                Caption = 'Customer Category';
+                Image = Action;
+                Promoted = true;
+                PromotedCategory = Process;
+                RunObject = page "CustomerCategoryList";
+            }
 
         }
         addafter("Sales Taxes Collected")

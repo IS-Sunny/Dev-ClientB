@@ -1,10 +1,11 @@
-page 50103 CustomerCategory
+page 50103 CustomerCategoryEntity
 {
 
     APIGroup = 'APIGrp';
     APIPublisher = 'DSA';
     APIVersion = 'v1.0';
     Caption = 'Customer Category';
+    ODataKeyFields = SystemId;
     DelayedInsert = true;
     EntityName = 'EntityCustomerCategory';
     EntitySetName = 'EntityCustomerCategorySet';
@@ -37,8 +38,18 @@ page 50103 CustomerCategory
                 {
                     Caption = 'No';
                 }
-               
+                field(CustomerNo; Rec."Customer No.")
+                {
+                    Caption = 'Customer No.';
+                }
+                field(SystemId; Rec.SystemId)
+                {
 
+                }
+                field(ID; Rec.RecordId)
+                {
+
+                }
                 field(totalCustomersForCategory; Rec.TotalCustomersForCategory)
                 {
                     Caption = 'TotalCustomersForCategory';

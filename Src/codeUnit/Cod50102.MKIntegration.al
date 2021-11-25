@@ -5,6 +5,12 @@ codeunit 50102 MKIntegration
     trigger OnRun()
     begin
         getToken();
+
+    end;
+
+    procedure testSCM()
+    begin
+        getToken();
     end;
 
     procedure testXX(): Text

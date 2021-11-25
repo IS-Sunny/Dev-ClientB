@@ -9,6 +9,7 @@ table 50100 "Customer Category"
         {
             Caption = 'No';
             DataClassification = CustomerContent;
+
         }
         field(2; Description; Text[50])
         {
@@ -39,16 +40,17 @@ table 50100 "Customer Category"
             Caption = 'Free Gifts Available';
             DataClassification = CustomerContent;
         }
+        field(7; "Customer No."; Code[20])
+        {
+            Caption = 'Customer No.';
+            TableRelation = Customer;
+        }
     }
     keys
     {
         key(PK; No)
         {
             Clustered = true;
-        }
-        key(Key1; "Description")
-        {
-
         }
     }
 

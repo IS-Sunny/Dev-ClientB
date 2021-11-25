@@ -9,7 +9,7 @@
             "environmentType": "Sandbox",
             "environmentName": "Sandbox_DEV",
             "serverInstance": "Sandbox_DEV",
-            "startupObjectId": 21,
+            "startupObjectId": 50102,
             "startupObjectType": "Page",
             "breakOnError": true,
             "launchBrowser": true,
